@@ -1,2 +1,2 @@
-# tutorials
+# Tutorials
 Repository for web dev tutorials
