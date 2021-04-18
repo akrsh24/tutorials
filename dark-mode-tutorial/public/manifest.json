@@ -1,0 +1,9 @@
+{
+  "short_name": "Dark Mode App",
+  "name": "Dark Mode App Sample",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
