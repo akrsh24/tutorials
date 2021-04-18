@@ -15,11 +15,15 @@ const App = () => {
       <>
         <GlobalStyles />
         <div>
-          <h1 style={{ margin: "0 auto" }}>Welcome to Theme - {theme}</h1>
+          <h1 style={{
+            position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)"
+          }}>
+            Welcome to {theme.toUpperCase()} Theme
+          </h1>
           <Toggler theme={theme} toggleTheme={themeToggler}>Switch Theme</Toggler>
         </div>
       </>
-    </ThemeProvider>
+    </ThemeProvider >
   );
 }
 
